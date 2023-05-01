@@ -387,8 +387,7 @@ class dl_lodes:
         year = int(year)
         if year < 2002:
             raise Exception('LEHD OD data is unavailable prior to 2002')
-        if year > 2017:
-            raise Exception('LEHD OD data is unavailable after to 2017')
+
 
         if geography not in ["B","BG","CT","C","S"]:
 
