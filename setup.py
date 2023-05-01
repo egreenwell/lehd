@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="lehd", # Replace with your own username
     version="0.0.1",
-    author="Jeff Allen",
-    author_email="jeff.allen@utoronto.ca",
+    author="Elizabeth Greenwell",
+    author_email="egreenwell@planrva.org",
     description="a library for downloading LEHD data",
     long_description="a Python library for downloading LEHD data into pandas DataFrames",
     long_description_content_type="text/markdown",
